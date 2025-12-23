@@ -1,0 +1,4 @@
+username,password,name,isAdmin,wallet
+admin,admin,System Administrator,true,75000.0
+diya,megh,Aatreyee Misra,false,75000.0
+Megh,diya,Baban,false,46850.0
