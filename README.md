@@ -22,6 +22,18 @@ The system handles the complete lifecycle of an airline reservation platform:
 
 This project is suitable for academic submissions, system design demonstrations, and Java OOP showcases.
 
+<p align="center">
+  <img src="https://github.com/diya003/Java-Project/blob/4bd0fd76f5ecddd48400146770a29e5c6056c7f6/Screenshot%202025-12-23%20231519.png" alt="SkyConnect Boarding Pass">
+</p>
+
+<p align="center">
+  <img src="https://github.com/diya003/Java-Project/blob/4bd0fd76f5ecddd48400146770a29e5c6056c7f6/Screenshot%202025-12-23%20231528.png" alt="SkyConnect Boarding Pass">
+</p>
+
+<p align="center">
+  <img src="https://github.com/diya003/Java-Project/blob/4bd0fd76f5ecddd48400146770a29e5c6056c7f6/Screenshot%202025-12-23%20231534.png" alt="SkyConnect Boarding Pass">
+</p>
+
 ---
 
 ## Key Features
@@ -47,8 +59,15 @@ Files used:
 ## Passenger Module
 
 ### Flight Search
+- Search All flights :
+<p align="center">
+  <img src="https://github.com/diya003/Java-Project/blob/fc629f196d30c6eb148b9b2489a64179b3cceeea/Screenshot%202025-12-23%20230457.png" alt="SkyConnect Boarding Pass">
+</p>
 - Search flights by city code (DEL, BOM, BLR, etc.)
-
+- For example selected DEL :
+<p align="center">
+  <img src="https://github.com/diya003/Java-Project/blob/fc629f196d30c6eb148b9b2489a64179b3cceeea/Screenshot%202025-12-23%20230611.png" alt="SkyConnect Boarding Pass">
+</p>
 ### Interactive Seat Map
 - Visual seat grid
 - Prevents double booking
@@ -58,8 +77,6 @@ Example:
 <p align="center">
   <img src="https://github.com/diya003/Java-Project/blob/03568b378657cd1d6d56170f902f90c69d029d20/Screenshot%202025-12-23%20225909.png?raw=true" alt="SkyConnect Boarding Pass">
 </p>
-
-
 
 ### Cabin Classes
 - Economy
