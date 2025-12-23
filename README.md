@@ -22,17 +22,7 @@ The system handles the complete lifecycle of an airline reservation platform:
 
 This project is suitable for academic submissions, system design demonstrations, and Java OOP showcases.
 
-<p align="center">
-  <img src="https://github.com/diya003/Java-Project/blob/4bd0fd76f5ecddd48400146770a29e5c6056c7f6/Screenshot%202025-12-23%20231519.png" alt="SkyConnect Boarding Pass">
-</p>
 
-<p align="center">
-  <img src="https://github.com/diya003/Java-Project/blob/4bd0fd76f5ecddd48400146770a29e5c6056c7f6/Screenshot%202025-12-23%20231528.png" alt="SkyConnect Boarding Pass">
-</p>
-
-<p align="center">
-  <img src="https://github.com/diya003/Java-Project/blob/4bd0fd76f5ecddd48400146770a29e5c6056c7f6/Screenshot%202025-12-23%20231534.png" alt="SkyConnect Boarding Pass">
-</p>
 
 ---
 
@@ -148,6 +138,17 @@ CSV Persistence Layer
 ---
 
 ## Project Structure
+<p align="center">
+  <img src="https://github.com/diya003/Java-Project/blob/4bd0fd76f5ecddd48400146770a29e5c6056c7f6/Screenshot%202025-12-23%20231519.png" alt="SkyConnect Boarding Pass">
+</p>
+
+<p align="center">
+  <img src="https://github.com/diya003/Java-Project/blob/4bd0fd76f5ecddd48400146770a29e5c6056c7f6/Screenshot%202025-12-23%20231528.png" alt="SkyConnect Boarding Pass">
+</p>
+
+<p align="center">
+  <img src="https://github.com/diya003/Java-Project/blob/4bd0fd76f5ecddd48400146770a29e5c6056c7f6/Screenshot%202025-12-23%20231534.png" alt="SkyConnect Boarding Pass">
+</p>
 
 ---
 
