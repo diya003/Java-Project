@@ -25,7 +25,36 @@ This project is suitable for academic submissions, system design demonstrations,
 
 
 ---
+## Getting Started
 
+Follow these steps to get the application running on your local machine.
+
+---
+## Step 1: Prerequisites
+
+Ensure you have the following installed:
+
+- **Java Development Kit (JDK):** Version 8 or higher
+- **Terminal:** A terminal that supports ANSI colors (VS Code Terminal, IntelliJ IDEA, Linux Terminal, PowerShell, or Git Bash)
+
+---
+
+## Step 2: Compile the Code
+
+Open your terminal in the directory where `AirlineApp.java` is located and run:
+
+```bash
+javac AirlineApp.java
+```
+
+
+
+Once **compilation is successful**, start the application using:
+
+```bash
+java AirlineApp
+
+```
 ## Key Features
 
 ### Terminal User Interface
