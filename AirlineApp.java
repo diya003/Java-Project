@@ -19,8 +19,6 @@ public class AirlineApp {
     public static final String CYAN = "\u001B[36m";
     public static final String WHITE = "\u001B[37m";
     public static final String BOLD = "\u001B[1m";
-    
-    // Backgrounds
     public static final String BG_BLUE = "\u001B[44m";
     public static final String BG_CYAN = "\u001B[46m";
     public static final String BG_GREEN = "\u001B[42m";
@@ -61,13 +59,12 @@ public class AirlineApp {
             createFileIfNotExists(FILE_BOOKINGS, "pnr,flightId,seat,owner,class,meal,price");
             createFileIfNotExists(FILE_FLIGHTS, "id,origin,destination,time,price");
             
-            // Seed Users if empty
+
             if(countLines(FILE_USERS) <= 1) {
                 saveUser(new User("admin", "admin", "System Administrator", true));
-                saveUser(new User("diya", "megh", "Aatreyee Misra", false));
+                saveUser(new User("Aatreyee", "misra", "Aatreyee Misra", false));
             }
 
-            // Seed Flights if empty (Moved from DataStore static block to here for persistence)
             if(countLines(FILE_FLIGHTS) <= 1) {
                 seedFlights();
             }
@@ -268,7 +265,6 @@ public class AirlineApp {
         }
     }
 
-    // --- AUTHENTICATION ---
     private static void authMenu(Scanner sc) {
         clearScreen();
         printBoxed("INDIA SKYCONNECT v7.0");
@@ -318,7 +314,6 @@ public class AirlineApp {
         printStatus(true, "ACCOUNT CREATED SUCCESSFULLY");
     }
 
-    // --- USER DASHBOARD ---
     private static void userMenu(Scanner sc) {
         clearScreen();
         User u = DataStore.currentUser;
@@ -569,7 +564,7 @@ public class AirlineApp {
         }
     }
 
-    // --- ADMIN VIEWS ---
+   
     private static void viewManifests(Scanner sc) {
         System.out.print("\n   Enter Flight ID (e.g. AI-101): ");
         String fid = sc.nextLine().toUpperCase();
@@ -650,7 +645,7 @@ public class AirlineApp {
         }
     }
 
-    // --- VISUAL UTILS ---
+  
     private static void printStatus(boolean success, String msg) {
         String color = success ? BG_GREEN : BG_RED;
         String symbol = success ? "✔" : "✘";
@@ -774,4 +769,5 @@ public class AirlineApp {
             this.f=f; seat=s; owner=o; travelClass=tc; meal=m; paidPrice=p; bookingId=bid;
         }
     }
+
 }
