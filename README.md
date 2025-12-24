@@ -43,6 +43,15 @@ Files used:
 - users.csv
 - flights.csv
 - bookings.csv
+<p align="center">
+  <img src="https://github.com/diya003/Java-Project/blob/a7e173cb6dcf39cde460ff137a54f76f242b002d/Screenshot%202025-12-24%20094735.png" alt="SkyConnect Boarding Pass">
+</p>
+<p align="center">
+  <img src="https://github.com/diya003/Java-Project/blob/a7e173cb6dcf39cde460ff137a54f76f242b002d/Screenshot%202025-12-24%20094749.png" alt="SkyConnect Boarding Pass">
+</p>
+<p align="center">
+  <img src="https://github.com/diya003/Java-Project/blob/a7e173cb6dcf39cde460ff137a54f76f242b002d/Screenshot%202025-12-24%20094754.png" alt="SkyConnect Boarding Pass">
+</p>
 
 ---
 
